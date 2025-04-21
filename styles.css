@@ -1,0 +1,98 @@
+:root{
+
+}
+body{
+    display: flex;
+    margin: 0px;
+    background-color: #EFEFEF;
+}
+.leftImage>img{
+    height: 100vh;
+    width: 40vw;
+}
+.greyBar{
+    position: absolute;
+    width: 40vw;
+    height: 20vh;
+    top: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: ghostwhite;
+    font-size: 5vh;
+}
+.greyBar>img{
+    max-height: 30vh;
+    max-width: auto;
+}
+.leftImage>p{
+    position: absolute;
+    bottom: 5vh;
+    width: 40vw;
+    text-align: center;
+    color: ghostwhite;
+}
+.rightForm{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.serviceDescription{
+    height: 25vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serviceDescription>p{
+    text-align: center;
+}
+.fillIn{
+    background-color: ghostwhite;
+    box-sizing: border-box;
+    padding: 24px;
+    box-shadow: 0px 8px 8px rgb(195, 195, 195);
+}
+.inpContainer{
+    display: flex;
+    justify-content: flex-start;
+}
+.inpColumn{
+    display: flex;
+    margin-left: 5vw;
+    flex-flow: column wrap;
+    
+}
+h2{
+    margin: 1.5vh 1.5vw 1.5vh 1.5vw;
+}
+input{
+    width: 20vw;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 2px;
+}
+input:invalid{
+    border: 1px solid red;
+    border-radius: 2px;
+}
+input:focus{
+    border: 1px solid blue;
+    border-radius: 2px;
+    box-shadow: 0px 0px 8px grey;
+}
+button{
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: rgb(84, 126, 84);
+    color: #EFEFEF;
+    margin: 5vh 0px 0px 5vh;
+    width: 10vw;
+    height: 5vh;
+}
+.rightForm>p{
+    margin: 5vh 0px 0px 5vh;
+}
+a{
+    color: rgb(84, 126, 84);
+    text-decoration: none;
+}

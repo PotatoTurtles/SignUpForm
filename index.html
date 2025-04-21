@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="leftImage">
+        <img src="background-Sign-up-Form.avif" alt="Nice background image">
+            <div class="greyBar">
+                <img src="odin-lined.png" alt="The Odin Project Logo">
+                <h1>ODIN</h1>
+            </div>
+            <p>
+                Photo by Halie West on Unsplash
+            </p>
+    </div>
+    <div class="rightForm">
+        <div class="serviceDescription">
+            <p>SIGN UP NOW!!!! <br><br> If you don't your life will be irrevocably changed in a negative fashion! <br><br>Please submit your information below.</p>
+        </div>
+        <form action="/" method="post">
+            <div class="fillIn">
+                <h2>Let's do this!</h2>
+                <div class="inpContainer">
+                    <div class="inpColumn">
+                        <label for="fName">First Name</label>
+                        <input id="fName" name="FirstName" type="text" placeholder="Tommy..." minlength="2">
+                        <label for="email">Email</label>
+                        <input type="email" name="Email" id="email" placeholder="example@gmail.com">
+                        <label for="pass">Password</label>
+                        <input type="password" name="Password" id="pass" required minlength="5">
+                    </div>
+                    <div class="inpColumn">
+                        <label for="lName">Last Name</label>
+                        <input type="text" name="LastName" id="lName" placeholder="...Reviere" minlength="2">
+                        <label for="pNum">Phone Number</label>
+                        <input type="tel" name="PhoneNumber" id="pNum" placeholder="XXX-XXXX">
+                        <label for="confPass">Confirm Password</label>
+                        <input type="password" name="ConfirmPassword" id="confPass" required>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="/">Log in</a></p>
+    </div>
+</body>
+</html>
